@@ -1,11 +1,16 @@
-//
-//  main.swift
-//  Classes
-//
-//  Created by 鈴木彰悟 on 2022/10/28.
-//
+import SwiftUI
 
-import Foundation
+let potaufu = curry()
+print(potaufu.carrots)
+potaufu.addmeats()
+potaufu.addpotatoes()
 
-print("Hello, World!")
+let CurryUdon = curryUdon()
+CurryUdon.addCurryroux
+CurryUdon.addmeats()
+CurryUdon.onio = 4
+print(CurryUdon.onio)
+CurryUdon.carrots = 6
+
+
 
